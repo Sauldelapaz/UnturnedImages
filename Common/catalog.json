@@ -1,0 +1,82 @@
+{
+  "profile": "Common",
+  "source": "Native Unturned ItemTool.getIcon",
+  "imageCommit": "898393feb224649140c017659718c8cd55e22559",
+  "size": 256,
+  "expected": 5,
+  "iconCount": 4,
+  "items": [
+    {
+      "id": 45626,
+      "guid": "5e4160cf0bd8eb32ce9d144c31b35cfd",
+      "name": "Caja Sorpresa LSurvival",
+      "type": "Barricade",
+      "sourceWorkshopId": "Own Common Service Pack",
+      "sourceDefinitionSha256": "88a648fc95e4d24e50ae7862f068fba8cade591da5418a5d0c935989b925121b",
+      "width": 256,
+      "height": 256,
+      "sha256": "85e7fa6fd726beca9f789b287a37d68052e55f610a33033b20e63c5313d969d9",
+      "framing": "NATIVE_AUTO_MEASURED_CLONE",
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45626.png"
+    },
+    {
+      "id": 45705,
+      "guid": "1f26e8e2d3b6cd68c49509ca6a922af7",
+      "name": "Caja Sorpresa || LSurvival",
+      "type": "Barricade",
+      "sourceWorkshopId": "Own Common Service Pack",
+      "sourceDefinitionSha256": "eba50bb9f299e8e6072f1aa7102a5e0814c8bba7b7c974f3059518baa31aa367",
+      "width": 256,
+      "height": 256,
+      "sha256": "865a2bc521183a4d8e175a104f315823e09fcef68826f54b7a68ae69dfcef746",
+      "framing": "NATIVE_AUTO_MEASURED_CLONE",
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45705.png"
+    },
+    {
+      "id": 45784,
+      "guid": "6497ed133cdbcee8e98c62fcb5b56cde",
+      "name": "Caja Sorpresa Tier ||| LSurvival",
+      "type": "Barricade",
+      "sourceWorkshopId": "Own Common Service Pack",
+      "sourceDefinitionSha256": "58bf503adcc143ff0d50f4927aa5d199d060444de0f0113f94ce3d081317db52",
+      "width": 256,
+      "height": 256,
+      "sha256": "6f195ef46604233deed213cb9f1efe0c98704825b7dd85dbbdca4b024882c624",
+      "framing": "NATIVE_AUTO_MEASURED_CLONE",
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45784.png"
+    },
+    {
+      "id": 45785,
+      "guid": "e568c82b00516db64daeaba395fa1e41",
+      "name": "Caja del Tesoro LSurvival",
+      "type": "Storage",
+      "sourceWorkshopId": "Own Common Service Pack",
+      "sourceDefinitionSha256": "35ed8cc1883447b5fcac20ce163a02a96bdfc2c24230fd9caf6c8b24930149e0",
+      "width": 256,
+      "height": 256,
+      "sha256": "3d06ab41afc7018f601270d779ff56ef3781975066680d98d94307d31ccbc713",
+      "framing": "NATIVE_AUTO_MEASURED_CLONE",
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45785.png"
+    }
+  ],
+  "unavailable": [
+    {
+      "id": 45786,
+      "guid": "0dc86ab8095b781b305e619c3b0c1ec8",
+      "name": "Equipo recuperable",
+      "reason": "Native renderer returned fully transparent pixels"
+    }
+  ],
+  "requiredContentCovered": 4,
+  "requiredContentRequested": 5,
+  "authorizedDeferrals": [
+    {
+      "id": 45786,
+      "guid": "0dc86ab8095b781b305e619c3b0c1ec8",
+      "sourceSha256": "e2b0eb5fc343fc2297dde2a5c9f772c0ee9e8206a280a124862c02b7e3f6f506",
+      "reason": "Native inventory Item preview is fully transparent in original and auto framing; real world Barricade model render pending in Unity. No image URL may be invented."
+    }
+  ],
+  "sourceCatalogSha256": "19d385cc6daa3ad17315ad6d77cc91ef5098a753c482d066d5194181a385ffdd",
+  "internalGunComponentsNotSeparateUiItems": []
+}
