@@ -1,10 +1,10 @@
 {
   "profile": "Common",
-  "source": "Native Unturned ItemTool.getIcon",
-  "imageCommit": "898393feb224649140c017659718c8cd55e22559",
+  "source": "Native Unturned item previews; empty pickup fallback uses actual Barricade prefab geometry and original materials rendered in Unity",
+  "imageCommit": "81e50deaf2b5623f78ad6bc5af74b9e927ead379",
   "size": 256,
   "expected": 5,
-  "iconCount": 4,
+  "iconCount": 5,
   "items": [
     {
       "id": 45626,
@@ -17,7 +17,7 @@
       "height": 256,
       "sha256": "85e7fa6fd726beca9f789b287a37d68052e55f610a33033b20e63c5313d969d9",
       "framing": "NATIVE_AUTO_MEASURED_CLONE",
-      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45626.png"
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/81e50deaf2b5623f78ad6bc5af74b9e927ead379/Common/Items/45626.png"
     },
     {
       "id": 45705,
@@ -30,7 +30,7 @@
       "height": 256,
       "sha256": "865a2bc521183a4d8e175a104f315823e09fcef68826f54b7a68ae69dfcef746",
       "framing": "NATIVE_AUTO_MEASURED_CLONE",
-      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45705.png"
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/81e50deaf2b5623f78ad6bc5af74b9e927ead379/Common/Items/45705.png"
     },
     {
       "id": 45784,
@@ -43,7 +43,7 @@
       "height": 256,
       "sha256": "6f195ef46604233deed213cb9f1efe0c98704825b7dd85dbbdca4b024882c624",
       "framing": "NATIVE_AUTO_MEASURED_CLONE",
-      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45784.png"
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/81e50deaf2b5623f78ad6bc5af74b9e927ead379/Common/Items/45784.png"
     },
     {
       "id": 45785,
@@ -56,27 +56,26 @@
       "height": 256,
       "sha256": "3d06ab41afc7018f601270d779ff56ef3781975066680d98d94307d31ccbc713",
       "framing": "NATIVE_AUTO_MEASURED_CLONE",
-      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/898393feb224649140c017659718c8cd55e22559/Common/Items/45785.png"
-    }
-  ],
-  "unavailable": [
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/81e50deaf2b5623f78ad6bc5af74b9e927ead379/Common/Items/45785.png"
+    },
     {
       "id": 45786,
       "guid": "0dc86ab8095b781b305e619c3b0c1ec8",
       "name": "Equipo recuperable",
-      "reason": "Native renderer returned fully transparent pixels"
+      "type": "Storage",
+      "sourceWorkshopId": "Own Common Service Pack",
+      "sourceDefinitionSha256": "e2b0eb5fc343fc2297dde2a5c9f772c0ee9e8206a280a124862c02b7e3f6f506",
+      "width": 256,
+      "height": 256,
+      "sha256": "16d0da24766438ed293c88214c1c0065c06fa277198346ea7dc83d4ee8facd04",
+      "framing": "UNITY_NATIVE_BARRICADE_PREFAB_PREVIEW",
+      "url": "https://raw.githubusercontent.com/Sauldelapaz/UnturnedImages/81e50deaf2b5623f78ad6bc5af74b9e927ead379/Common/Items/45786.png"
     }
   ],
-  "requiredContentCovered": 4,
+  "unavailable": [],
+  "requiredContentCovered": 5,
   "requiredContentRequested": 5,
-  "authorizedDeferrals": [
-    {
-      "id": 45786,
-      "guid": "0dc86ab8095b781b305e619c3b0c1ec8",
-      "sourceSha256": "e2b0eb5fc343fc2297dde2a5c9f772c0ee9e8206a280a124862c02b7e3f6f506",
-      "reason": "Native inventory Item preview is fully transparent in original and auto framing; real world Barricade model render pending in Unity. No image URL may be invented."
-    }
-  ],
+  "authorizedDeferrals": [],
   "sourceCatalogSha256": "19d385cc6daa3ad17315ad6d77cc91ef5098a753c482d066d5194181a385ffdd",
   "internalGunComponentsNotSeparateUiItems": []
 }
